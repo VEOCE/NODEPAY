@@ -1,4 +1,4 @@
-# NodePay-AIRDROP-Bot
+# NodePay-AIRDROP
 
 A bot for automating Nodepay airdrop interactions, including session management and pinging with flexible connection options (proxy or direct).
 
