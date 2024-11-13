@@ -15,13 +15,12 @@ async function readLines(filename) {
 
 function displayHeader() {
   process.stdout.write('\x1Bc');
-  ░█████╗░██╗░░░██╗████████╗░█████╗░
-  ██╔══██╗██║░░░██║╚══██╔══╝██╔══██╗
-  ███████║██║░░░██║░░░██║░░░██║░░██║
-  ██╔══██║██║░░░██║░░░██║░░░██║░░██║
-  ██║░░██║╚██████╔╝░░░██║░░░╚█████╔╝
-  ╚═╝░░╚═╝░╚═════╝░░░░╚═╝░░░░╚════╝░
-    console.log();
+  console.log('========================================'.cyan);
+  console.log('=          NodePay AIRDROP Bot         ='.cyan);
+  console.log('=         Edited by FreeDropLink       ='.cyan);
+  console.log('=        https://t.me/FreeDropLink     ='.cyan);
+  console.log('========================================'.cyan);
+  console.log();
 }
 
 async function askAccountType() {
